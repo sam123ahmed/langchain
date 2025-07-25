@@ -3,7 +3,7 @@
 ## !pip install langchain chromadb openai tiktoken pypdf langchain_openai langchain-community
 
 import os
-# os.environ["OPENAI_API_KEY"] = "sk-proj-"
+
 
 from langchain_openai import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
