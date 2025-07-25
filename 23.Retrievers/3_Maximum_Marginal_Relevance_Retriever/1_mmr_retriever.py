@@ -1,7 +1,7 @@
 # !pip install langchain chromadb faiss-cpu openai tiktoken langchain_openai langchain-community wikipedia
 
 import os
-os.environ["OPENAI_API_KEY"] = ""
+# os.environ["OPENAI_API_KEY"] = ""
 
 
 from langchain_core.documents import Document
